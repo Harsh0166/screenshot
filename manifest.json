@@ -2,7 +2,7 @@
     "name":"ScreenShot",
     "description":"take a ScreenShot",
     "version": "1.0",
-    "permissions": ["contextMenus","activeTab"],
+    "permissions": ["contextMenus","activeTab","downloads"],
     "background":{
         "service_worker": "background.js"
     },
