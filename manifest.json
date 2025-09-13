@@ -1,0 +1,10 @@
+{
+    "name":"ScreenShot",
+    "description":"take a ScreenShot",
+    "version": "1.0",
+    "permissions": ["contextMenus","activeTab"],
+    "background":{
+        "service_worker": "background.js"
+    },
+    "manifest_version": 3
+}
